@@ -55,5 +55,5 @@ indepTidyAvg <- indepTidy %>%
         group_by(activity, subject) %>% 
         summarise_at(vars("tBodyAcc-mean()-X":"fBodyBodyGyroJerkMag-std()"), mean) 
 # Write the data to a txt file
-write_delim(indepTidyAvg, "independent_tidy_average.txt")
+write.table(indepTidyAvg, "independent_tidy_average.txt", row.names = FALSE)
 
