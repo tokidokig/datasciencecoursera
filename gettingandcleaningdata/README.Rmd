@@ -1,7 +1,7 @@
 ---
 title: "README"
-author: "tokidokig"
-date: "6/19/2020"
+author: "David Normann"
+date: "6/21/2020"
 output: html_document
 ---
 
@@ -33,7 +33,7 @@ In addition to producing the final processed data (indepTidyAvg), the script als
         + activity_labels.txt 
         + subject_test.txt 
         + subject_train.txt 
-2. Subsets the above merged data to extracts only the mean and standard deviation for each measurement row (observation). 
+2. Subsets the above merged data to extract only the mean and standard deviation for each measurement row (observation). 
 3. Adds a column of descriptive activity names 
 4. Retains source descriptive names for each variable 
 5. Creates a second tidy data set with the average of each activity and each subject. 
@@ -55,9 +55,9 @@ Tidyverse sub packages:
 ## Additional files and information 
 
 1. run_analysis.R - data processing script 
-2. CodeBook.Rmd - variables added or drawn from the course project data 
-3. features_info.txt - source list of variables from course project folder 
-4. Original README.txt from course project information folder  
+2. CodeBook.Rmd - variables added to or drawn from UCI HAR Dataset folder 
+3. features_info.txt - source list of variables from the UCI HAR Dataset folder 
+4. Original README.txt from the UCI HAR Dataset folder  
 
 
 

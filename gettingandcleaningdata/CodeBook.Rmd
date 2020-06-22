@@ -1,20 +1,20 @@
 ---
 title: "CodeBook"
-author: "tokidokig"
-date: "6/19/2020"
+author: "David Normann"
+date: "6/21/2020"
 output: html_document
 ---
 
 ## Introduction 
 Each row (observation) in this dataset is the result of a unique combination of activity and subject resulting in a total of 180 observations. For each combination of activity and subject, the run_analysis.R script calculates a single average measurement for each of these 66 variables without regard to their original calculation purpose.
 
-The criteria for selecting the 66 measurement variables (below) is based upon the assignment's direction to only extract "on the mean and standard deviation for each measurement." It is from this extraction that the average calculation for each of the 180 unique combinations of activity and subject is applied.  
+The criteria for selecting the 66 measurement variables (below) is based upon the course assignment's direction to only extract "on the mean and standard deviation for each measurement." It is from this extraction that the average calculation for each of the 180 unique combinations of activity and subject is applied.  
 
 
 ## Added variables to measurement data: 
 The 180 unique combinations are specified by two columns of data: 
 
-"activity" - one of six activities e.g, STANDING, SITTING, Etc. 
+"activity" - one of six activities e.g, STANDING, SITTING, etc. 
 "subject" - An ID associated with each of the 30 subjects involved in the original experiments. 
 
  
